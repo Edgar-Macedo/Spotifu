@@ -1,0 +1,31 @@
+.list{
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+}
+
+.list-title{
+    font: var(--baseFont);
+    margin-block-start: 0rem;
+    margin-block-end: .5rem;
+}
+
+.list-content{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.list-item{
+    margin-block-end: 0;
+    overflow: auto; /*this is in the event the "Playlist" section grows bigger*/
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.list-item a{
+    font: var(--baseFontBold);
+    transition: color .2s;
+}

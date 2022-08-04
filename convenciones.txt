@@ -1,0 +1,14 @@
+*** Conventions *** 
+
+
+-No Global styles, exept variables 
+-Clases based in components and not repeated 
+-One stylesheet per component
+-Components must not have dependencies 
+-Files are typed in kebab-case 
+
+CSS 
+-".component"
+-".myComponent"
+-".myComponent-part"
+-".myComponent-anotherPart"
